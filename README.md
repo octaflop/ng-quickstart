@@ -43,6 +43,13 @@ Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the
 git remote add origin <repo-address>
 git push -u origin master
 ```
+
+## node updates
+
+```bash
+nvm install 4.4.3
+```
+
 ## Install npm packages
 
 Install the npm packages described in the `package.json` and verify that it works:
