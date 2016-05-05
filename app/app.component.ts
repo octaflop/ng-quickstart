@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-
 import { Hero } from './hero';
 import { HeroDetailComponent } from './hero-detail.component';
 
@@ -68,6 +67,7 @@ import { HeroDetailComponent } from './hero-detail.component';
   `],
   directives: [HeroDetailComponent]
 })
+
 export class AppComponent { 
     title = "Tour of Heroes";
     heroes = HEROES;
