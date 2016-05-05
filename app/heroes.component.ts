@@ -67,7 +67,6 @@ import { HeroService } from './hero.service';
     }
   `],
   directives: [HeroDetailComponent],
-  providers: [HeroService]
 })
 
 export class HeroesComponent implements OnInit { 
