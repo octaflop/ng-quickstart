@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 
+import { Hero } from './hero';
+
 @Component({
   selector: 'my-hero-detail',
   template: `
@@ -14,4 +16,5 @@ import { Component, Input } from '@angular/core';
       `
 })
 export class HeroDetailComponent {
+  hero: Hero;
 }
