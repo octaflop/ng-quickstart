@@ -23,4 +23,4 @@ export class DashboardComponent implements OnInit {
     let link = ['HeroDetail', { id: hero.id }];
     this.router.navigate(link);
   }
-}}
+}

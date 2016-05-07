@@ -5,6 +5,7 @@ import { HeroService }     from './hero.service';
 import { HeroesComponent } from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
 import { DashboardComponent } from './dashboard.component';
+import { Hero } from './hero';
 
 @RouteConfig([
   {
